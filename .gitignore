@@ -1,0 +1,23 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.pyc
+__pycache__
+*.local
+.vscode
+.env*
+yarn-error*
+*.log
+package-lock.json
+yarn.lock
+!.env.example
+
+# Grafana data
+/grafana-data/
+
+# MongoDB data
+/mongo-data/
+
+# Redis data
+/redis-data/
